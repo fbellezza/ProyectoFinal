@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<meta name="description" content="Educación">
+	<meta name="keywords" content="Estudios, Experiencia, Federico Bellezza">
+	<meta name="author" content="Federico Bellezza">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+	<title>Educación</title>
+
+	<style type="text/css">
+		table, td, th {border:1px solid #000000; 
+					   border-collapse:collapse; 
+					   padding:5px; 
+					   text-align:center;}
+	</style>
+</head>
+<body>
+	<header>
+		<img src="logo.svg" width="150px" height="150px">
+		<h1>Hoja de vida</h1>
+		<h2>Federico Bellezza</h2>
+		<h3>Fecha de Nacimiento: 16/06/1987</h3>
+		<h3>lugar de Nacimiento: Roque Perez, Buenos Aires, Argentina</h3>
+		<nav>
+			<ul>
+				<li><a href="index.html">Inicio</a></li>
+				<li><a href="educacion.html">Educación</a></li>
+				<li><a href="experiencia.html">Experiencia</a></li>
+			</ul>
+		</nav>
+	</header>
+	<div id="contenedor">
+		<h2>Educación</h2>
+			<table >
+				<tr >
+					<th>Año</th>
+					<th>Lugar</th>
+					<th>Institucion</th>
+					<th>¿Culmino?</th>
+				</tr>
+				<tr>
+					<td>2018</td>
+					<td>Azul</td>
+					<td>Next University</td>
+					<td>NO</td>
+				</tr>
+				<tr>
+					<td>2017</td>
+					<td>Azul</td>
+					<td>UNICEN</td>
+					<td>SI</td>
+				</tr>
+				<tr>
+					<td>2017</td>
+					<td>Buenos Aires</td>
+					<td>UBA</td>
+					<td>SI</td>
+				</tr>
+				<tr>
+					<td>2016</td>
+					<td>Buenos Aires</td>
+					<td>IT</td>
+					<td>SI</td>
+				</tr>
+			</table>
+			<form>
+				<h2>Agregar Estudios</h2>
+					<label>Año:</label>
+						<select>
+							<option value="2018">2018</option>
+							<option value="2017">2017</option>
+							<option value="2016">2016</option>
+						</select><br>
+					<label>Institución:</label>
+						<input type="text" name="institucion" required><br>
+					<label>Lugar</label>
+						<textarea name="lugar" rows="2" cols="10"></textarea><br>
+					<label>¿Culmino?</label>
+						<input type="radio" name="si">SI
+						<input type="radio" name="no">NO<br>
+					<input type="submit" name="Enviar" value="Enviar">
+
+			</form>
+	</div>
+	<footer>
+		<h4>Contacto:</h4>
+		<a href="mailto:fede_bellezza@hotmail.com">Correo electrónico</a><br>
+		<a href="https://www.facebook.com/fbellezza" target="_blank">Facebook</a><br>
+		<p><b>TEL:</b> 02281-15-551798</p>
+		<p><b>Dirección:</b> Colon 254, Azul, Bs. As., Argentina</p>
+	</footer>
+</body>
+</body>
+</html>
